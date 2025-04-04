@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Le Norm - Hôtel de Luxe</title>
+  <link rel="stylesheet" href="/css/general.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header class="header">
+    <div class="container">
+      <div class="header__content">
+        <a href="#" class="logo">Le Norm</a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#accueil" class="nav__link">Accueil</a></li>
+            <li class="nav__item"><a href="#a-propos" class="nav__link">À propos</a></li>
+            <li class="nav__item"><a href="#chambres" class="nav__link">Chambres</a></li>
+            <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+            <li class="nav__item"><a href="#galerie" class="nav__link">Galerie</a></li>
+            <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            <li class="nav__item"><a href="#reservation" class="nav__link nav__link--cta">Réserver</a></li>
+          </ul>
+        </nav>
+        <button class="nav-toggle" aria-label="Toggle menu">
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="accueil">
+    <div class="hero__slider">
+      <div class="hero__slide active">
+        <div class="hero__image" style="background-image: url('https://placehold.co/1920x1080')"></div>
+        <div class="hero__content">
+          <h1 class="hero__title">Bienvenue au Norm</h1>
+          <p class="hero__subtitle">Une expérience hôtelière unique</p>
+          <a href="#reservation" class="btn btn--primary">Réserver maintenant</a>
+        </div>
+      </div>
+      <div class="hero__slide">
+        <div class="hero__image" style="background-image: url('https://placehold.co/1920x1080')"></div>
+        <div class="hero__content">
+          <h1 class="hero__title">Luxe et Élégance</h1>
+          <p class="hero__subtitle">Découvrez notre hôtel d'exception</p>
+          <a href="#reservation" class="btn btn--primary">Réserver maintenant</a>
+        </div>
+      </div>
+      <div class="hero__slide">
+        <div class="hero__image" style="background-image: url('https://placehold.co/1920x1080')"></div>
+        <div class="hero__content">
+          <h1 class="hero__title">Détente et Sérénité</h1>
+          <p class="hero__subtitle">Un havre de paix au cœur de la ville</p>
+          <a href="#reservation" class="btn btn--primary">Réserver maintenant</a>
+        </div>
+      </div>
+      <button class="hero__arrow hero__arrow--prev" aria-label="Slide précédente">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+      </button>
+      <button class="hero__arrow hero__arrow--next" aria-label="Slide suivante">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+      </button>
+      <div class="hero__dots"></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about section" id="a-propos">
+    <div class="container">
+      <div class="about__content">
+        <div class="about__text">
+          <h2 class="section__title">À propos du Norm</h2>
+          <p class="about__paragraph">
+            Niché au cœur d'un environnement exceptionnel, Le Norm est bien plus qu'un simple hôtel. 
+            C'est une destination où l'élégance rencontre le confort, où chaque détail est pensé pour 
+            créer une expérience inoubliable.
+          </p>
+          <p class="about__paragraph">
+            Notre établissement allie harmonieusement architecture contemporaine et touches traditionnelles, 
+            créant ainsi une atmosphère unique qui séduira les voyageurs les plus exigeants.
+          </p>
+          <p class="about__paragraph">
+            Que vous soyez en quête d'une escapade romantique, d'un séjour d'affaires ou d'une retraite 
+            relaxante, Le Norm vous offre un cadre idéal pour tous vos besoins.
+          </p>
+        </div>
+        <div class="about__image">
+          <img src="https://placehold.co/600x800" alt="Le Norm Hotel">
+        </div>
+      </div>
+      
+      <div class="about__features">
+        <div class="feature">
+          <h3 class="feature__title">Notre Histoire</h3>
+          <p class="feature__text">
+            Fondé en 2010, Le Norm s'est rapidement imposé comme une référence dans l'hôtellerie de luxe, 
+            perpétuant une tradition d'excellence et d'hospitalité.
+          </p>
+        </div>
+        <div class="feature">
+          <h3 class="feature__title">Notre Philosophie</h3>
+          <p class="feature__text">
+            Nous croyons que chaque séjour doit être une expérience unique. Notre équipe s'engage à 
+            offrir un service personnalisé qui dépasse vos attentes.
+          </p>
+        </div>
+        <div class="feature">
+          <h3 class="feature__title">Notre Engagement</h3>
+          <p class="feature__text">
+            Le développement durable est au cœur de nos préoccupations. Nous mettons en œuvre des 
+            pratiques respectueuses de l'environnement dans tous nos services.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rooms Section -->
+  <section class="rooms section" id="chambres">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title">Nos Chambres & Suites</h2>
+        <p class="section__subtitle">
+          Découvrez nos chambres et suites élégantes, conçues pour offrir un confort optimal et une expérience inoubliable.
+          Chaque espace a été méticuleusement aménagé pour répondre à vos besoins.
+        </p>
+      </div>
+
+      <div class="rooms__content">
+        <div class="rooms__sidebar">
+          <h3 class="rooms__sidebar-title">Nos Hébergements</h3>
+          <div class="rooms__tabs">
+            <button class="rooms__tab active" data-room="deluxe">Chambre Deluxe</button>
+            <button class="rooms__tab" data-room="junior">Suite Junior</button>
+            <button class="rooms__tab" data-room="presidential">Suite Présidentielle</button>
+          </div>
+        </div>
+
+        <div class="rooms__details">
+          <div class="room active" id="deluxe">
+            <div class="room__image">
+              <img src="https://placehold.co/800x600" alt="Chambre Deluxe">
+            </div>
+            <div class="room__info">
+              <div class="room__header">
+                <h3 class="room__title">Chambre Deluxe</h3>
+                <span class="room__price">À partir de 250€ / nuit</span>
+              </div>
+              <p class="room__description">
+                Nos chambres Deluxe offrent un espace généreux et élégant, avec une vue imprenable sur les environs. 
+                Chaque chambre est équipée d'un lit king-size, d'une salle de bain en marbre et d'équipements modernes.
+              </p>
+              <div class="room__features">
+                <h4 class="room__features-title">Caractéristiques:</h4>
+                <ul class="room__features-list">
+                  <li class="room__feature">Lit king-size</li>
+                  <li class="room__feature">Vue panoramique</li>
+                  <li class="room__feature">Salle de bain en marbre</li>
+                  <li class="room__feature">Wi-Fi gratuit</li>
+                  <li class="room__feature">Minibar</li>
+                </ul>
+              </div>
+              <a href="#reservation" class="btn btn--primary">Réserver maintenant</a>
+            </div>
+          </div>
+
+          <div class="room" id="junior">
+            <div class="room__image">
+              <img src="https://placehold.co/800x600" alt="Suite Junior">
+            </div>
+            <div class="room__info">
+              <div class="room__header">
+                <h3 class="room__title">Suite Junior</h3>
+                <span class="room__price">À partir de 350€ / nuit</span>
+              </div>
+              <p class="room__description">
+                Nos Suites Junior combinent espace de vie et de couchage dans un cadre luxueux. 
+                Profitez d'un séjour confortable avec des équipements haut de gamme et une décoration raffinée.
+              </p>
+              <div class="room__features">
+                <h4 class="room__features-title">Caractéristiques:</h4>
+                <ul class="room__features-list">
+                  <li class="room__feature">Espace salon séparé</li>
+                  <li class="room__feature">Lit king-size</li>
+                  <li class="room__feature">Baignoire et douche séparées</li>
+                  <li class="room__feature">Machine à café Nespresso</li>
+                  <li class="room__feature">Service de conciergerie</li>
+                </ul>
+              </div>
+              <a href="#reservation" class="btn btn--primary">Réserver maintenant</a>
+            </div>
+          </div>
+
+          <div class="room" id="presidential">
+            <div class="room__image">
+              <img src="https://placehold.co/800x600" alt="Suite Présidentielle">
+            </div>
+            <div class="room__info">
+              <div class="room__header">
+                <h3 class="room__title">Suite Présidentielle</h3>
+                <span class="room__price">À partir de 650€ / nuit</span>
+              </div>
+              <p class="room__description">
+                Notre Suite Présidentielle représente le summum du luxe. Avec ses espaces généreux, 
+                sa décoration somptueuse et ses services exclusifs, elle offre une expérience incomparable 
+                pour les clients les plus exigeants.
+              </p>
+              <div class="room__features">
+                <h4 class="room__features-title">Caractéristiques:</h4>
+                <ul class="room__features-list">
+                  <li class="room__feature">150m² d'espace</li>
+                  <li class="room__feature">Terrasse privée</li>
+                  <li class="room__feature">Salle à manger</li>
+                  <li class="room__feature">Majordome personnel</li>
+                  <li class="room__feature">Transfert aéroport inclus</li>
+                </ul>
+              </div>
+              <a href="#reservation" class="btn btn--primary">Réserver maintenant</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Amenities Section -->
+  <section class="amenities section" id="services">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title">Nos Services & Équipements</h2>
+        <p class="section__subtitle">
+          Au Norm, nous nous efforçons de rendre votre séjour aussi confortable et agréable que possible.
+          Découvrez notre large gamme de services et d'équipements conçus pour enrichir votre expérience.
+        </p>
+      </div>
+
+      <div class="amenities__grid">
+        <div class="amenity">
+          <div class="amenity__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"></path><path d="M7 2v20"></path><path d="M21 15V2"></path><path d="M18 15a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"></path><path d="M18 8a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"></path></svg>
+          </div>
+          <h3 class="amenity__title">Restaurant Gastronomique</h3>
+          <p class="amenity__description">
+            Savourez une cuisine raffinée préparée par notre chef étoilé, mettant en valeur les produits locaux et de saison.
+          </p>
+        </div>
+
+        <div class="amenity">
+          <div class="amenity__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"></path><path d="M1.42 9a16 16 0 0 1 21.16 0"></path><path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path><line x1="12" y1="20" x2="12.01" y2="20"></line></svg>
+          </div>
+          <h3 class="amenity__title">Wi-Fi Haut Débit</h3>
+          <p class="amenity__description">
+            Restez connecté avec notre Wi-Fi gratuit à haut débit disponible dans tout l'établissement.
+          </p>
+        </div>
+
+        <div class="amenity">
+          <div class="amenity__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"></path><circle cx="7" cy="17" r="2"></circle><path d="M9 17h6"></path><circle cx="17" cy="17" r="2"></circle></svg>
+          </div>
+          <h3 class="amenity__title">Service de Voiturier</h3>
+          <p class="amenity__description">
+            Profitez de notre service de voiturier et de location de véhicules pour faciliter vos déplacements.
+          </p>
+        </div>
+
+        <div class="amenity">
+          <div class="amenity__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 6.5 17.5 17.5"></path><path d="M6.5 17.5 17.5 6.5"></path><path d="m5 13 2 2 4-4"></path><path d="m13 13 4 4"></path><path d="m13 5 4 4"></path><path d="m5 5 4 4"></path></svg>
+          </div>
+          <h3 class="amenity__title">Centre de Fitness</h3>
+          <p class="amenity__description">
+            Maintenez votre routine d'exercice dans notre centre de fitness moderne équipé des dernières machines.
+          </p>
+        </div>
+
+        <div class="amenity">
+          <div class="amenity__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h20"></path><path d="M2 12c0 5 4 8 10 8s10-3 10-8"></path><path d="M2 12c0-5 4-8 10-8s10 3 10 8"></path></svg>
+          </div>
+          <h3 class="amenity__title">Spa & Bien-être</h3>
+          <p class="amenity__description">
+            Détendez-vous dans notre spa luxueux offrant une gamme complète de soins et de massages.
+          </p>
+        </div>
+
+        <div class="amenity">
+          <div class="amenity__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 8h1a4 4 0 1 1 0 8h-1"></path><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"></path><line x1="6" y1="2" x2="6" y2="4"></line><line x1="10" y1="2" x2="10" y2="4"></line><line x1="14" y1="2" x2="14" y2="4"></line></svg>
+          </div>
+          <h3 class="amenity__title">Bar & Lounge</h3>
+          <p class="amenity__description">
+            Dégustez des cocktails créatifs et une sélection de vins fins dans notre bar élégant.
+          </p>
+        </div>
+
+        <div class="amenity">
+          <div class="amenity__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          </div>
+          <h3 class="amenity__title">Excursions & Activités</h3>
+          <p class="amenity__description">
+            Découvrez la région avec nos excursions personnalisées et activités organisées par notre équipe.
+          </p>
+        </div>
+
+        <div class="amenity">
+          <div class="amenity__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          </div>
+          <h3 class="amenity__title">Service 24h/24</h3>
+          <p class="amenity__description">
+            Notre équipe est à votre disposition 24h/24 pour répondre à tous vos besoins pendant votre séjour.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery section" id="galerie">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title">Galerie</h2>
+        <p class="section__subtitle">
+          Explorez notre hôtel à travers cette sélection d'images qui capture l'essence du Norm
+          et vous donne un aperçu de l'expérience qui vous attend.
+        </p>
+      </div>
+
+      <div class="gallery__filters">
+        <button class="gallery__filter active" data-filter="all">Tous</button>
+        <button class="gallery__filter" data-filter="interieur">Intérieur</button>
+        <button class="gallery__filter" data-filter="exterieur">Extérieur</button>
+        <button class="gallery__filter" data-filter="chambres">Chambres</button>
+        <button class="gallery__filter" data-filter="restaurant">Restaurant</button>
+        <button class="gallery__filter" data-filter="spa">Spa</button>
+      </div>
+
+      <div class="gallery__grid">
+        <div class="gallery__item" data-category="interieur">
+          <img src="https://placehold.co/600x400" alt="Lobby de l'hôtel" class="gallery__image">
+          <div class="gallery__overlay">
+            <span class="gallery__caption">Lobby de l'hôtel</span>
+          </div>
+        </div>
+        <div class="gallery__item" data-category="restaurant">
+          <img src="https://placehold.co/600x400" alt="Restaurant gastronomique" class="gallery__image">
+          <div class="gallery__overlay">
+            <span class="gallery__caption">Restaurant gastronomique</span>
+          </div>
+        </div>
+        <div class="gallery__item" data-category="chambres">
+          <img src="https://placehold.co/600x400" alt="Suite de luxe" class="gallery__image">
+          <div class="gallery__overlay">
+            <span class="gallery__caption">Suite de luxe</span>
+          </div>
+        </div>
+        <div class="gallery__item" data-category="exterieur">
+          <img src="https://placehold.co/600x400" alt="Piscine extérieure" class="gallery__image">
+          <div class="gallery__overlay">
+            <span class="gallery__caption">Piscine extérieure</span>
+          </div>
+        </div>
+        <div class="gallery__item" data-category="spa">
+          <img src="https://placehold.co/600x400" alt="Spa et bien-être" class="gallery__image">
+          <div class="gallery__overlay">
+            <span class="gallery__caption">Spa et bien-être</span>
+          </div>
+        </div>
+        <div class="gallery__item" data-category="exterieur">
+          <img src="https://placehold.co/600x400" alt="Vue panoramique" class="gallery__image">
+          <div class="gallery__overlay">
+            <span class="gallery__caption">Vue panoramique</span>
+          </div>
+        </div>
+        <div class="gallery__item" data-category="restaurant">
+          <img src="https://placehold.co/600x400" alt="Bar lounge" class="gallery__image">
+          <div class="gallery__overlay">
+            <span class="gallery__caption">Bar lounge</span>
+          </div>
+        </div>
+        <div class="gallery__item" data-category="interieur">
+          <img src="https://placehold.co/600x400" alt="Salle de conférence" class="gallery__image">
+          <div class="gallery__overlay">
+            <span class="gallery__caption">Salle de conférence</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="lightbox">
+        <div class="lightbox__content">
+          <img src="/placeholder.svg" alt="" class="lightbox__image">
+          <button class="lightbox__close" aria-label="Fermer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title">Contact & Réservation</h2>
+        <p class="section__subtitle">
+          Nous sommes à votre disposition pour répondre à toutes vos questions et vous aider à planifier votre séjour parfait au Norm.
+        </p>
+      </div>
+
+      <div class="contact__content">
+        <div class="contact__info">
+          <h3 class="contact__title">Nous Contacter</h3>
+          
+          <div class="contact__details">
+            <div class="contact__detail">
+              <div class="contact__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div class="contact__text">
+                <h4 class="contact__label">Adresse</h4>
+                <p class="contact__value">123 Avenue des Champs-Élysées, 75008 Paris, France</p>
+              </div>
+            </div>
+            
+            <div class="contact__detail">
+              <div class="contact__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <div class="contact__text">
+                <h4 class="contact__label">Téléphone</h4>
+                <p class="contact__value">+33 (0)1 23 45 67 89</p>
+              </div>
+            </div>
+            
+            <div class="contact__detail">
+              <div class="contact__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path><path d="M2 7l10 7 10-7"></path></svg>
+              </div>
+              <div class="contact__text">
+                <h4 class="contact__label">Email</h4>
+                <p class="contact__value">info@lenorm.com</p>
+              </div>
+            </div>
+            
+            <div class="contact__detail">
+              <div class="contact__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              </div>
+              <div class="contact__text">
+                <h4 class="contact__label">Horaires</h4>
+                <p class="contact__value">Réception ouverte 24h/24, 7j/7</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contact__social">
+            <h4 class="contact__social-title">Suivez-nous</h4>
+            <div class="contact__social-links">
+              <a href="#" class="contact__social-link" aria-label="Facebook">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"></path></svg>
+              </a>
+              <a href="#" class="contact__social-link" aria-label="Instagram">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"></path></svg>
+              </a>
+              <a href="#" class="contact__social-link" aria-label="Twitter">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact__form-container" id="reservation">
+          <h3 class="contact__title">Envoyez-nous un Message</h3>
+          
+          <form class="contact__form" id="contactForm">
+            <div class="form__group">
+              <label for="name" class="form__label">Nom complet</label>
+              <input type="text" id="name" name="name" class="form__input" required>
+            </div>
+            
+            <div class="form__group">
+              <label for="email" class="form__label">Email</label>
+              <input type="email" id="email" name="email" class="form__input" required>
+            </div>
+            
+            <div class="form__group">
+              <label for="phone" class="form__label">Téléphone</label>
+              <input type="tel" id="phone" name="phone" class="form__input">
+            </div>
+            
+            <div class="form__group">
+              <label for="message" class="form__label">Message</label>
+              <textarea id="message" name="message" rows="4" class="form__input" required></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn--primary btn--full">Envoyer</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__info">
+          <h3 class="footer__title">Le Norm</h3>
+          <p class="footer__text">
+            Une expérience hôtelière unique alliant luxe, confort et élégance pour un séjour inoubliable.
+          </p>
+          <p class="footer__copyright">
+            © <span id="currentYear"></span> Le Norm. Tous droits réservés.
+          </p>
+        </div>
+        
+        <div class="footer__links">
+          <h3 class="footer__subtitle">Liens Rapides</h3>
+          <ul class="footer__list">
+            <li class="footer__item"><a href="#accueil" class="footer__link">Accueil</a></li>
+            <li class="footer__item"><a href="#a-propos" class="footer__link">À propos</a></li>
+            <li class="footer__item"><a href="#chambres" class="footer__link">Chambres</a></li>
+            <li class="footer__item"><a href="#services" class="footer__link">Services</a></li>
+            <li class="footer__item"><a href="#galerie" class="footer__link">Galerie</a></li>
+            <li class="footer__item"><a href="#contact" class="footer__link">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer__links">
+          <h3 class="footer__subtitle">Informations Légales</h3>
+          <ul class="footer__list">
+            <li class="footer__item"><a href="#" class="footer__link">Mentions légales</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Politique de confidentialité</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Conditions générales</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Plan du site</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer__newsletter">
+          <h3 class="footer__subtitle">Newsletter</h3>
+          <p class="footer__text">
+            Inscrivez-vous à notre newsletter pour recevoir nos offres spéciales.
+          </p>
+          <form class="footer__form">
+            <input type="email" placeholder="Votre email" class="footer__input" required>
+            <button type="submit" class="footer__button">OK</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

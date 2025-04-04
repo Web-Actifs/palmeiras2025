@@ -1,19 +1,7 @@
+@import "./variables.scss";
+@import "./languages.scss";
 // Variables
-$primary-color: #f59e0b;
-$primary-dark: #d97706;
-$text-color: #333;
-$text-light: #666;
-$bg-light: #fafaf9;
-$bg-dark: #1c1917;
-$white: #fff;
-$black: #000;
-$border-color: #e7e5e4;
-$transition: all 0.3s ease;
-$box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-$border-radius: 4px;
-$container-width: 1200px;
-$font-sans: 'Inter', sans-serif;
-$font-serif: 'Playfair Display', serif;
+
 
 // Reset & Base Styles
 *, *::before, *::after {

@@ -1,5 +1,9 @@
-# web_Casa_du_Ventoux
-Website for a french Guest House.
+# web Palmeiras started in 2025
+Website for a Mozambican resort.
+
 SASS, HTML, JS technoligies involved
 
-# web_couz
+Started with V0 :
+https://v0.dev/chat/norm-hotel-website-clone-GpxXxH03sDD
+
+

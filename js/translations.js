@@ -269,6 +269,14 @@ const translations = {
           title: "Gourmet Restaurant",
           description: "Savor refined cuisine prepared by our starred chef, highlighting local and seasonal products."
         },
+        beachbar: {
+          title: "Beach Bar in front of the lagune",
+          description: "Drinks, snacks, and light meals are served in a relaxed atmosphere with a view of the lagoon."
+        },
+        bkc: {
+          title: "Kitesurfing center",
+          description: "Kitesurfing center with the best instructors in the region, offering lessons and equipment rental."
+        },
         wifi: {
           title: "High-Speed Wi-Fi",
           description: "Stay connected with our free high-speed Wi-Fi available throughout the establishment."
